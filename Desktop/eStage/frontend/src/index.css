@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  /* background-color: #1a1a1a; */
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* Small Display */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Display */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Display */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}

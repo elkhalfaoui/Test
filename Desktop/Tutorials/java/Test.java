@@ -1,6 +1,6 @@
 public class Test {
 
-    static String name;
+    public static String name;
     static {
         name = "Zakaria";
     }
@@ -22,6 +22,8 @@ public class Test {
         System.out.println(str);
 
         StringBuffer sbuf = new StringBuffer("zaka"); // StringBuffer = initial value size + 16 char
+        sbuf.insert(4, "-ria");
+        System.out.println(sbuf);
         System.out.println(sbuf.capacity());
 
         StringBuilder sbui = new StringBuilder("zaka"); // StringBuffer = initial value size + 16 char

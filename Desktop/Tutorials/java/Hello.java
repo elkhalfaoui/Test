@@ -36,7 +36,7 @@ class Student {
     }
 
     public void intoString() {
-        System.out.println("Student  with id(" + this.id + ") : " + this.name);
+        System.out.println("Student  with id("+ id + ") : " + name);
     }
 }
 

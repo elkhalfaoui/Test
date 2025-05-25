@@ -54,8 +54,6 @@ public class Hello {
         System.out.println(calc1.division(34, 17));
         //! when you call a method the JVM will create a Stack with the parameters and their values
         //! the instence variables and methods in the object are stored in the Heap but their refrence(clac1) is stored int the main method stack
-
-
         
         int l = 12;
         int h = l%2== 0? (l-1)/2 + 1 : l/2 + 1;
